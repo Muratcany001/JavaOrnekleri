@@ -1,0 +1,34 @@
+package vize2;
+
+import java.util.Scanner;
+
+public class Main {
+
+    
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("faktoriyelini bulmak istediğiniz sayıyı giriniz");
+
+        int fkt = scan.nextInt();
+
+        int sayac  = 1;
+
+        
+
+        while (fkt>1){
+
+            sayac*=fkt--;
+
+        }
+
+        System.out.println(sayac);
+
+    }
+
+    
+
+}
+
