@@ -1,0 +1,44 @@
+package java5;
+
+import java.util.Scanner;
+
+public class java5 {
+
+    
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("1. sayi");
+
+        int a = scan.nextInt();
+
+        
+
+        Scanner scan1 = new Scanner(System.in);
+
+        System.out.println("sayi 2"); 
+
+        int b = scan1.nextInt();
+
+        
+
+        if ( a> b) {
+
+            System.out.println(a+ " sayisi "+b+" sayisindan buyuktur");
+
+        }
+
+        else {
+
+            System.out.println(b+ " sayisi "+a+" sayisindan buyuktur");
+
+        }
+
+    }
+
+    
+
+}
+
