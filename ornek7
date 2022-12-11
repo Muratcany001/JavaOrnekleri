@@ -1,0 +1,50 @@
+package vize13;
+
+import java.util.Scanner;
+
+public class vize13 {
+
+    
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Asal olup olmadığını merak ettiğiniz sayiyi giriniz");
+
+        int sayac=0;
+
+        int sayi = scan.nextInt();
+
+        for(int x=2;x<sayi;x++){
+
+            if(sayi%x==0){
+
+                sayac++;
+
+            }}
+
+            if (sayac==0){
+
+                System.out.println("Girdiginiz sayi asaldir");
+
+            }
+
+            else {
+
+                System.out.println("girdiginiz sayi asal değildir ");
+
+            }
+
+             
+
+            
+
+        }
+
+    
+
+    
+
+}
+
