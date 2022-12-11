@@ -1,1 +1,35 @@
+package java11;
+
+import java.util.Scanner;
+
+public class java11 {
+
+    
+
+    public static void main(String[] args) {
+
+       Scanner scan = new Scanner(System.in);
+
+        System.out.println("Tek mi cift mi ogrenmek istediğiniz sayıyı giriniz");
+
+        int a = scan.nextInt();
+
+        if(a%2==0){
+
+            System.out.println("Girdiğiniz sayı çifttir ");
+
+        }
+
+        else {
+
+            System.out.println("Girdiğiniz sayı tektir ");
+
+        }
+
+    }
+
+    
+
+}
+
 
