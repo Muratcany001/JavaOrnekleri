@@ -1,0 +1,43 @@
+package java13;
+
+import java.util.Scanner;
+
+public class java13 {
+
+    
+
+    public static void main(String[] args) {
+
+       Scanner scan = new Scanner(System.in);
+
+        System.out.println("Sınıf mevcudunu giriniz");
+
+        int mevcut = scan.nextInt();
+
+        int toplam =0;
+
+        for (int x=0;x<mevcut;x++){
+
+          Scanner scan2 = new Scanner(System.in);
+
+          System.out.println("Öğrenci boyunu giriniz");
+
+        		int boy = scan2.nextInt();        		
+
+          toplam += boy;
+
+          
+
+        }
+
+        System.out.println("boy ortalamasi "+toplam/mevcut+" dir");
+
+        
+
+        
+
+    }
+
+    
+
+}
